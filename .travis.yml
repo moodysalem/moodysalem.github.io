@@ -2,8 +2,8 @@ language: ruby
 rvm:
 - 2.1
 
-install: gem install jekyll
-script: ./script/cibuild
+install: gem install jekyll html-proofer
+script: script/cibuild
 
 deploy:
   provider: s3
@@ -13,5 +13,7 @@ deploy:
   bucket: moodysalem.com
   local-dir: _site
   acl: public_read
+  endpoint: moodysalem.com.s3-website-us-east-1.amazonaws.com
+  skip_cleanup: true
   on:
     repo: moodysalem/blog
