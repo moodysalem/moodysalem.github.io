@@ -2,6 +2,8 @@ language: ruby
 rvm:
 - 2.1
 
+script: ./script/cibuild
+
 deploy:
   provider: s3
   access_key_id: AKIAJMEMJDJXVZOMJVTA
