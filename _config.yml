@@ -10,4 +10,3 @@ github_username:  moodysalem
 
 # Build settings
 markdown: kramdown
-exclude: [cibuild]
