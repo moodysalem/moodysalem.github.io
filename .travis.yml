@@ -3,7 +3,7 @@ rvm:
 - 2.1
 
 install: gem install jekyll html-proofer
-script: script/cibuild
+script: ./cibuild
 
 deploy:
   provider: s3
