@@ -1,0 +1,10 @@
+deploy:
+  provider: s3
+  access_key_id: AKIAJMEMJDJXVZOMJVTA
+  secret_access_key:
+    secure: sLJ5AYWWBnxms5xNd2U7P+Y1n4HEn0uXSPRKcu3tHGGzg54LAK5v83aDlCQehna6Z48S0n41v1M3/fEYLDxXHC9Tr66YXcoN2g0FA4D9So6Lw8ZyLcscIQCUaDCBzyJLzgub4UfRNS8LnfpoKUfKg5Wmd/8b4tHcwIDelE8zrZH137LAKeOYYv3qJFWMLJDyMldU+B1YoxhKc1BjVI1EYtyQ/k6+5yH+dZuOrkZOSRusFHeGBMPgDX8beA+x0AH5dIQXLLDJjjp9H+9FnwUrsnoembBKLIjaYwyeArxhsIIo7p1j31KcYkICq4KjO56kH8IA4ozpEKQ1PfRxKMpJQGtgKHLThuKgEb89cgucKERjJw6BzV4PHTcnXZKfESelE9gurAcbB9oU/5CSgwmY/apDkptghpq3A8F58CLKcIvlWcBulfRttxwKvguUMTTdxbUsvbo6LwxB8aF3p36CKcoKWBx+OugafnHGXovrj0O/EF1qI2khD5DUEhut+Fl89PyOO0U2UhAyRcjr2nMgRgYP/hu/Povs0m7jlwOO0oscJ46BUDZJJid9JzPlFF+r5w3EI8h468CyG3TXq5ype/nuADvYxAICY19x5WsWKomy3HGJcThkgT6/YqBJRfXBbRFLKKel5592kwadUeCptKO8eEIfn7hP166HdICED9o=
+  bucket: moodysalem.com
+  local-dir: _site
+  acl: public_read
+  on:
+    repo: moodysalem/blog
