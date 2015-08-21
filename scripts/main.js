@@ -1,5 +1,7 @@
 "use strict";
 $(function () {
+  FastClick.attach(document.body);
+
   $("#gotop").click(function () {
     jQuery("html,body").animate({
       scrollTop: 0
