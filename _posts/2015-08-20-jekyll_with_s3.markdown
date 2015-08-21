@@ -65,3 +65,6 @@ My file ended up looking like this. You'll need to configure the access_key_id, 
 
 ## Add Disqus and Google Analytics
 Now you can publish content, but it's good to also see that users are interacting and viewing this content. [Google Analytics](http://google.com/analytics) will let you see how many page views you're getting (and quite a bit more than that), while [Disqus](http://disqus.com) will let you create comment threads on each of your posts. I highly recommend integrating both features with your blog.
+
+## Final Notes
+You can see the source for this blog [here](https://github.com/moodysalem/blog). Version control is accomplished via git, and you can easily deploy to a staging bucket before production, though that is overkill for a simple configuration like this.
