@@ -1,8 +1,8 @@
 # Site settings
 title: Moody Salem's Blog
-motto: Do More With Less Code
+motto: Write Less Code
 email: moody.salem@gmail.com
-description: Ways to write web applications with fewer lines of code
+description: A blog about getting things done as a lazy developer
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://moodysalem.com" # the base hostname & protocol for your site
 github_username:  moodysalem
