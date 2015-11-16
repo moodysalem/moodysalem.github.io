@@ -22,9 +22,8 @@ $(function () {
       return;
     }
 
-    t = t.toLowerCase();
     // external URLs should open in new window
-    if (t.indexOf("http://") !== -1 || t.indexOf("https://") !== -1) {
+    if (t.toLowerCase().indexOf("http://") !== -1 || t.toLowerCase().indexOf("https://") !== -1) {
       e.preventDefault();
       window.open(t);
     }
