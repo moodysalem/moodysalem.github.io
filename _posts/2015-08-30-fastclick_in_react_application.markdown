@@ -5,9 +5,12 @@ date:   2015-08-30 15:20
 categories: react fastclick ios safari
 ---
 
-tl;dr: [The Code](https://raw.githubusercontent.com/moodysalem/react-backstrap/master/src/main/resources/META-INF/resources/rbs/components/controls/Tappable.js)
-
-Resolving the 300ms click delay with React. A [Google Search](https://www.google.com/search?q=click+delay) gives a huge number of solutions to this problem, including [FastClick](https://github.com/ftlabs/fastclick) which is in use on this page, but I couldn't find one that worked well with my existing React components. FastClick also has unresolved issues with new HTML5 input types. I rolled my own React component in [react-backstrap](https://github.com/moodysalem/react-backstrap) with a small amount of code.
+This problem is frequently encountered but not well solved. Mobile Safari has a 300ms delay between when you tap and your action
+is registered as a click. A [Google Search](https://www.google.com/search?q=click+delay) presents solutions like [FastClick](https://github.com/ftlabs/fastclick)
+which is in use on this page, but I couldn't find one that worked well with my existing React components.
+FastClick also has unresolved issues with new HTML5 input types.
+I rolled my own React component in [react-backstrap](https://github.com/moodysalem/react-backstrap) with a small amount of code.
+tl;dr: [The latest code](https://raw.githubusercontent.com/moodysalem/react-backstrap/master/src/main/resources/META-INF/resources/rbs/components/controls/Tappable.js)
 
 
 ## Available Properties
