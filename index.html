@@ -9,7 +9,7 @@ layout: default
         <br>
         <h3>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          <span class="disqus-comment-count" data-disqus-identifier="{{post.title}}"></span>
+          <span class="disqus-comment-count" data-disqus-identifier="{{post.title | escape}}"></span>
         </h3>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y %H:%m" }}</span>
         <hr id="line">
