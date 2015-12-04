@@ -4,7 +4,7 @@ title:  "Jekyll with S3"
 date:   2015-08-20 21:49
 categories: jekyll s3 aws travis git
 ---
-Jekyll and S3 static hosting work perfectly together. You can set up a highly configurable fully functional low cost blog using only static files. Without Jekyll, the only pain point is managing those static files, but Jekyll makes it a breeze to reuse markup with templates. Even version control and release management is simple with this combination of technologies. Here's a start-to-finish guide for getting it set up in an hour or two.
+***OUTDATED*** Jekyll and S3 static hosting work perfectly together. You can set up a highly configurable fully functional low cost blog using only static files. Without Jekyll, the only pain point is managing those static files, but Jekyll makes it a breeze to reuse markup with templates. Even version control and release management is simple with this combination of technologies. Here's a start-to-finish guide for getting it set up in an hour or two.
 
 ## Installing Jekyll
 On a Mac, this couldn't be any easier. Type `sudo gem install jekyll`. If you encounter an issue, it most likely means you don't have make installed. Try typing `make` at the terminal and you should get a prompt to install the command line developer tools.
@@ -68,3 +68,6 @@ Now you can publish content, but it's good to also see that users are interactin
 
 ## Final Notes
 You can see the source for this blog [here](https://github.com/moodysalem/blog). Version control is accomplished via git, and you can easily deploy to a staging bucket before production, though that is overkill for a simple configuration like this.
+
+## Edit:
+I'm no longer using this strategy to deploy the blog. Instead I'm using Github pages as a host, with AWS CloudFront for distribution.
