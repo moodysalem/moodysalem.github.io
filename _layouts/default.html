@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html>    
-  {% include head.html %}
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
 
-  <body>
-    {% include header.html %}
-    <br>
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-    
-    {% include footer.html %}
-    {% include google_analytics.html %}
-  </body>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js" integrity="sha384-6ePHh72Rl3hKio4HiJ841psfsRJveeS+aLoaEf3BWfS+gTF0XdAqku2ka8VddikM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js" integrity="sha384-qSrEYLMHSuUya7HioxgwmVKxoqyVbT2Xmu87cJyVwFm1oq4M6Tz5lcdiFrOrS93l" crossorigin="anonymous"></script>
+  <script src="/scripts/main.js"></script>
+</head>
+<body>
+  <div class="container">
+    {{ content }}
+  </div>
+  {% include google_analytics.html %}
+</body>
 </html>
