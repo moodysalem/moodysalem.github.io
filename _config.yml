@@ -12,9 +12,9 @@ markdown:           kramdown
 # Navigation
 nav:
   - name:           "about"
-    href:           "about"
+    href:           "about/"
   - name:           "projects"
-    href:           "projects"
+    href:           "projects/"
   - name:           "github"
     href:           "https://github.com/moodysalem"
 
