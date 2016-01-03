@@ -19,7 +19,8 @@ layout: default
   <div class="list-item">
     <h2 class="list-post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      <span class="disqus-comment-count" data-disqus-identifier="{{post.title | escape}}"></span>
+      <a class="disqus-comment-count" data-disqus-identifier="{{post.title | escape}}"
+            href="{{ site.baseurl }}{{ post.url }}#disqus_thread"></a>
     </h2>
     <div class="list-post-date">
       <time>{{ post.date | date_to_string }}</time>
