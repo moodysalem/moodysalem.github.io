@@ -8,7 +8,7 @@ categories: serviceworkers google chrome ios safari
 that are going to change how web developers build products.
 Using ServiceWorkers today, you can already build an offline web app that is indistinguishable from a native app
 when added to the home screen of an Android device.
-For example, check out (Trained to Thrill)[https://github.com/jakearchibald/trained-to-thrill] by [Jake Archibald](https://jakearchibald.com).
+For example, check out [Trained to Thrill](https://github.com/jakearchibald/trained-to-thrill) by [Jake Archibald](https://jakearchibald.com).
 It seems pretty clear that the web is becoming the new JVM-it's what [Java Web Start](http://docs.oracle.com/javase/tutorial/deployment/webstart/) 
 could have been with its automatic updating and hidden installer.
 
