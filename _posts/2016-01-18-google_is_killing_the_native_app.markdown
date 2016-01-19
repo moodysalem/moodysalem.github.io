@@ -16,14 +16,16 @@ Below are some other features that the web platform previously did not have that
 these features today to enhance your existing webapps-for example I've recently used ServiceWorkers to cache API data in a work
 project to prevent duplicate network requests for the same data without increasing the complexity of my webapp.
 
-[x] Separate Window [Chrome Plugins](https://chrome.google.com/webstore/category/apps) and
+
+
+- [x] Separate Window [Chrome Plugins](https://chrome.google.com/webstore/category/apps) and
     [iOS](https://developer.apple.com/library/ios/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
     /
     [Android](https://developers.google.com/web/updates/2014/11/Support-for-installable-web-apps-with-webapp-manifest-in-chrome-38-for-Android?hl=en)
     Web Apps
-[x] Reading a File from the File System [File API](https://www.w3.org/TR/FileAPI/)
-[x] Client Side Data Stores [IndexedDB](https://www.w3.org/TR/IndexedDB/)
-[x] Drag and Drop from other Windows [HTML5 Dratg and Drop](https://html.spec.whatwg.org/multipage/interaction.html#dnd)
-[x] Full Screen API [Full Screen API](https://fullscreen.spec.whatwg.org/)
-[x] Touch Events [Touch Events](http://www.w3.org/TR/websockets/)
-[x] Persistent communication links [WebSockets](http://www.w3.org/TR/websockets/)
+- [x] Reading a File from the File System [File API](https://www.w3.org/TR/FileAPI/)
+- [x] Client Side Data Stores [IndexedDB](https://www.w3.org/TR/IndexedDB/)
+- [x] Drag and Drop from other Windows [HTML5 Dratg and Drop](https://html.spec.whatwg.org/multipage/interaction.html#dnd)
+- [x] Full Screen API [Full Screen API](https://fullscreen.spec.whatwg.org/)
+- [x] Touch Events [Touch Events](http://www.w3.org/TR/websockets/)
+- [x] Persistent communication links [WebSockets](http://www.w3.org/TR/websockets/)
