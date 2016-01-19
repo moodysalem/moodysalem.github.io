@@ -25,7 +25,7 @@ project to prevent duplicate network requests for the same data without increasi
     Web Apps
 - [x] Reading a File from the File System [File API](https://www.w3.org/TR/FileAPI/)
 - [x] Client Side Data Stores [IndexedDB](https://www.w3.org/TR/IndexedDB/)
-- [x] Drag and Drop from other Windows [HTML5 Dratg and Drop](https://html.spec.whatwg.org/multipage/interaction.html#dnd)
+- [x] Drag and Drop from other Windows [HTML5 Drag and Drop](https://html.spec.whatwg.org/multipage/interaction.html#dnd)
 - [x] Full Screen API [Full Screen API](https://fullscreen.spec.whatwg.org/)
 - [x] Touch Events [Touch Events](http://www.w3.org/TR/websockets/)
 - [x] Persistent communication links [WebSockets](http://www.w3.org/TR/websockets/)
