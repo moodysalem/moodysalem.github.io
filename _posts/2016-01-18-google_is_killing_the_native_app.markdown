@@ -18,14 +18,14 @@ project to prevent duplicate network requests for the same data without increasi
 
 
 
-- [x] Separate Window [Chrome Plugins](https://chrome.google.com/webstore/category/apps) and
+* Separate Window [Chrome Plugins](https://chrome.google.com/webstore/category/apps) and
     [iOS](https://developer.apple.com/library/ios/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
     /
     [Android](https://developers.google.com/web/updates/2014/11/Support-for-installable-web-apps-with-webapp-manifest-in-chrome-38-for-Android?hl=en)
     Web Apps
-- [x] Reading a File from the File System [File API](https://www.w3.org/TR/FileAPI/)
-- [x] Client Side Data Stores [IndexedDB](https://www.w3.org/TR/IndexedDB/)
-- [x] Drag and Drop from other Windows [HTML5 Drag and Drop](https://html.spec.whatwg.org/multipage/interaction.html#dnd)
-- [x] Full Screen API [Full Screen API](https://fullscreen.spec.whatwg.org/)
-- [x] Touch Events [Touch Events](http://www.w3.org/TR/websockets/)
-- [x] Persistent communication links [WebSockets](http://www.w3.org/TR/websockets/)
+* Reading a File from the File System [File API](https://www.w3.org/TR/FileAPI/)
+* Client Side Data Stores [IndexedDB](https://www.w3.org/TR/IndexedDB/)
+* Drag and Drop from other Windows [HTML5 Drag and Drop](https://html.spec.whatwg.org/multipage/interaction.html#dnd)
+* Full Screen API [Full Screen API](https://fullscreen.spec.whatwg.org/)
+* Touch Events [Touch Events](http://www.w3.org/TR/websockets/)
+* Persistent communication links [WebSockets](http://www.w3.org/TR/websockets/)
