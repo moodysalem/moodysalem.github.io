@@ -4,18 +4,12 @@ layout: page
 permalink: /about/
 ---
 
-<p class="lead">
+    <h1>Moody</h1>
 	<ul>
 		<li>Software Engineer</li>
-		<li>Downtown Chicago</li>
+		<li>Based in Chicago</li>
 		<li>Java 8</li>
-		<li>RESTful services</li>
+		<li>Hibernate</li>
+		<li>ES6</li>
 		<li>React</li>
 	</ul>
-</p>
-
-<p>I build single page web applications and services.</p>
-
-<p>This blog is hosted using Github pages behind an AWS CloudFront distribution.</p>
-
-<p><a href="mailto:moody.salem@gmail.com?subject=Hello%20Moody">Say hello.</a></p>
