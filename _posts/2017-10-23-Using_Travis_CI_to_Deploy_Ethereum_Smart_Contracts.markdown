@@ -30,9 +30,9 @@ The resulting contract development workflow is as follows:
 
 Go [here](https://infura.io/#how-to) to register an infura token.
 
-### Copy my truffle.js
+### Copy my `truffle.js`
 
-This truffle.js file sets up infura providers for the mnemonic stored in the environment variables. We'll fill in
+This `truffle.js` file sets up infura providers for the mnemonic stored in the environment variables. We'll fill in
 the mnemonic variables with the Travis UI later.
  
 ```javascript
@@ -73,9 +73,9 @@ This depends on the network you want to deploy to, but for Kovan you can use a f
 Go to [myetherwallet](https://www.myetherwallet.com/) to get the public key for your BIP39. Use this public key
 when requesting ether from the faucets.
 
-### Create a `script` to deploy to travis in package.json
+### Create a `script` to deploy to travis in `package.json`
 
-We will use this script to deploy to the testnet
+We will use this script to tell truffle to deploy to the testnet we defined in our `truffle.js` above.
 
 ```json
 {
