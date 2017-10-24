@@ -24,7 +24,7 @@ The resulting contract development workflow is as follows:
   - Travis runs `truffle migrate` on your desired networks
   - Travis runs `npm publish` with the contract build artifacts
 1. Update my UI package to point at the latest contract package version
-  - Use your package via `require('contract-package/build/contracts/Contract.json')`
+  - Use your contract artifacts via `require('contract-package/build/contracts/Contract.json')`
 
 ### Get an infura API key
 
@@ -111,6 +111,9 @@ deploy:
 
 Go to your project at [the Travis website](https://travis-ci.org) to add the environment variables `MNEMONIC` and 
 `INFURA_API_KEY`. These should be your BIP39 mnemonic generated earlier and your API key that you got from infura.
+
+**Make sure to surround your MNEMONIC in QUOTES!** Because the mnemonic has spaces in it, and travis inserts those 
+variables exactly as typed, your deployments will not work unless your mnemonic is entered with quotes. 
 
 ### Example: [discuss-eth](https://github.com/discuss-eth/discuss.eth)
 
