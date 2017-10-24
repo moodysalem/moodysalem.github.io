@@ -32,8 +32,8 @@ Go [here](https://infura.io/#how-to) to register an infura token.
 
 ### Copy my `truffle.js`
 
-This `truffle.js` file sets up infura providers for the mnemonic stored in the environment variables. We'll fill in
-the mnemonic variables with the Travis UI later.
+This `truffle.js` file sets up infura providers. We'll fill in the `MNEMONIC` and `INFURA_API_KEY` variables 
+in the Travis UI later.
  
 ```javascript
 const INFURA_API_KEY = process.env.INFURA_API_KEY;
