@@ -70,7 +70,8 @@ Generate a BIP39 mnemonic to use for deploying your contracts. You can go
 This depends on the network you want to deploy to, but for Kovan you can use a faucet described 
 [here](https://github.com/kovan-testnet/faucet). 
 
-Go to [myetherwallet](https://www.myetherwallet.com/) to get the public key for your BIP39.
+Go to [myetherwallet](https://www.myetherwallet.com/) to get the public key for your BIP39. Use this public key
+when requesting ether from the faucets.
 
 ### Create a `script` to deploy to travis in package.json
 
