@@ -35,7 +35,7 @@ Go [here](https://infura.io/#how-to) to register an infura token.
 This truffle.js file sets up infura providers for the mnemonic stored in the environment variables. We'll fill in
 the mnemonic variables with the Travis UI later.
  
-```javascript 1.8
+```javascript
 const INFURA_API_KEY = process.env.INFURA_API_KEY;
 const MNEMONIC = process.env.MNEMONIC;
 const HDWalletProvider = require('truffle-hdwallet-provider');
@@ -57,7 +57,7 @@ for (let networkName in NETWORK_IDS) {
     network_id: NETWORK_IDS[ networkName ]
   };
 }
-```   
+```
 
 
 ### Generate a BIP39 mnemonic
