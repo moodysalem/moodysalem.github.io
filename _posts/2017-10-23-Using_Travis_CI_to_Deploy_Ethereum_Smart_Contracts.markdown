@@ -93,14 +93,14 @@ We will use this script to tell truffle to deploy to the testnet we defined in o
 Now you need Travis to know how to deploy your artifacts. To do so, first set up the Travis npm deployment provider using 
 `travis setup npm`. Then, insert the additional script deployment provider from the snippet below-it should come before 
 the npm provider since you want the build artifacts deployed to npm to include information about to which networks it was 
-deployed. Note script is an array and can take many migrate commands for many networks.
+deployed. Note script may only take one command. If you wish to deploy to multiple testnets, you will have to 
+use a script to call npm several times.
  
 ```yaml
 deploy:
   - provider: script
     skip_cleanup: true
-    script:
-      - npm run migrate:kovan
+    script: npm run migrate:kovan
     on:
       all_branches: true
       tags: true
