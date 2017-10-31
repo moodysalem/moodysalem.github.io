@@ -4,12 +4,14 @@ layout: page
 permalink: /about/
 ---
 
-    <h1>Moody</h1>
-	<ul>
-		<li>Software Engineer</li>
-		<li>Based in Chicago</li>
-		<li>Java 8</li>
-		<li>Hibernate</li>
-		<li>ES6</li>
-		<li>React</li>
-	</ul>
+# Moody Salem
+ - Software Engineer
+ - Based in NYC
+ - From Chicago
+ - Works with...
+   - Java 8
+   - Blockchain, Ethereum, Solidity
+   - ES7 JavaScript
+   - React
+   - Solidity
+   - Microservices
