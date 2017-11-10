@@ -13,5 +13,4 @@ permalink: /about/
    - Blockchain, Ethereum, Solidity
    - ES7 JavaScript
    - React
-   - Solidity
-   - Microservices
+   - Servlerless Architectures
