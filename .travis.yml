@@ -19,3 +19,4 @@ deploy:
   bucket: "moodysalem.com"
   region: "us-east-1"
   skip_cleanup: true
+  local_dir: _site
