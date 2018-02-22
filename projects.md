@@ -4,6 +4,10 @@ layout: page
 permalink: /projects/
 ---
 
+- [ethercast.io](https://ethercast.io)
+  - ETHDenver hackathon runner up
+  - Subscribe to ethereum smart contract events via webhooks
+  - Public beta coming soon!
 - [discuss.eth](https://github.com/discuss-eth)
   - Decentralized forums
 - [CitEthZen](https://github.com/citethzen)
