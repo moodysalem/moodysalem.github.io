@@ -1,0 +1,21 @@
+language: ruby
+rvm:
+- 2.3.3
+
+# Assume bundler is being used, therefore
+# the `install` step will run `bundle install` by default.
+script: bundle exec jekyll build
+
+# branch whitelist, only for GitHub Pages
+branches:
+  only:
+  - master     # test the gh-pages branch
+
+sudo: false # route your build to the container-based infrastructure for a faster build
+deploy:
+  provider: s3
+  access_key_id: $TRAVIS_ACCESS_KEY_ID
+  secret_access_key: $TRAVIS_SECRET_ACCESS_KEY
+  bucket: "moodysalem.com"
+  region: "us-east-1"
+  skip_cleanup: true
