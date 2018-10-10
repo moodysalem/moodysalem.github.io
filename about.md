@@ -7,10 +7,11 @@ permalink: /about/
 # Moody Salem
  - Software Engineer
  - Based in NYC
- - From Chicago
- - Works with...
+ - Googler
+ - Enjoys working with:
    - Java 8
-   - Blockchain, Ethereum, Solidity
-   - ES7 JavaScript
+   - Blockchain and Ethereum
+   - Distributed systems
+   - TypeScript
    - React
    - Servlerless Architectures
