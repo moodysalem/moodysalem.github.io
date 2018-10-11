@@ -11,10 +11,6 @@ markdown:           kramdown
 
 # Navigation
 nav:
-  - name:           "about"
-    href:           "about/"
-  - name:           "projects"
-    href:           "projects/"
   - name:           "github"
     href:           "https://github.com/moodysalem"
 
