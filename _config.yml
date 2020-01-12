@@ -13,6 +13,9 @@ markdown:           kramdown
 nav:
   - name:           "github"
     href:           "https://github.com/moodysalem"
+  - name:           "twitter"
+    href:           "https://twitter.com/doomymales"
+  
 
 # Sass
 sass:
