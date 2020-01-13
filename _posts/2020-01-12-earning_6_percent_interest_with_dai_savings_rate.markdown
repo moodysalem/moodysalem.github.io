@@ -96,10 +96,10 @@ _Note I only have a limited number of tokens so this link may expire after a sho
 
 ### Ethereum wallet risks
 
-If you lose access to your Ethereum wallet, you may suffer permanent loss of funds in that wallet. 
-I highly recommend the Argent app because of its guardian feature.
-You can delegate other Argent users as Guardians, or delegate Argent as your guardian by providing your phone number and e-mail address. This allows Argent
-to help you recover your wallet in the case where you lose or restore your phone. Make sure you set up Guardians before you deposit any funds!
+If you lose access to your Ethereum wallet, you permanently lose access to funds in that wallet. 
+I highly recommend the Argent app because of its guardian feature. Read more about that [here](https://www.argent.xyz/security/).
+TLDR: You can delegate other Argent users as Guardians, or delegate Argent as your guardian by providing your phone number and e-mail address. This allows Argent
+to help you recover your wallet in the case where you lose or restore your phone. Make sure you set up Guardians before you deposit any funds into your Argent wallet!
 
 ## Step 5: Withdraw DAI to your Ethereum wallet
 
