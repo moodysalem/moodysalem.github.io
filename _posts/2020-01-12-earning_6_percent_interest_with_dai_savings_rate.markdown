@@ -45,7 +45,7 @@ Now we need to move our DAI off of Coinbase. To do this, we need a destination w
 
 To avoid the line with Argent, you can use one of my golden tokens by clicking this link on your smartphone after you download the app. Note I only have a limited number of tokens so this link may expire after a short time.
 
-https://argent.link/FHPlUTIfPW
+[https://argent.link/FHPlUTIfPW](https://argent.link/FHPlUTIfPW)
 
 Make sure to set up Argent guardian so you can recover your funds if you lose or restore your phone.
 
