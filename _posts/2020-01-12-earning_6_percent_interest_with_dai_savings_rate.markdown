@@ -9,6 +9,8 @@ categories: ethereum smart contracts defi decentralized finance
 
 **This information is based on personal opinion and experience and should not be considered professional financial advice.**
 
+**I have absolutely nothing to gain from you following these steps. I am simply sharing what I think is a useful diversification that I myself am using.**
+
 ## Introduction
 
 This post is targeted at investors that have no background in cryptocurrencies or blockchains, but are interested in taking advantage of the high interest rates offered 
@@ -29,12 +31,6 @@ and I will try to make these risks clear with each step.
 ## Step 1: Get a Coinbase account
 
 First step is to create a Coinbase account. If you do not have one, you can create one [here](https://www.coinbase.com/signup).
-
-Optionally feel free to use my referral link:
-
-[https://www.coinbase.com/join/msalem](https://www.coinbase.com/join/msalem)
-
-_Note I will receive compensation for this referral._
 
 Once you've validated your account and linked a payment method, you will have the ability to purchase and sell cryptocurrencies for your local currency.
 
