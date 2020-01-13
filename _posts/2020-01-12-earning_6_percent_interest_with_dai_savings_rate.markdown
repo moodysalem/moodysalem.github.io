@@ -28,7 +28,13 @@ and I will try to make these risks clear with each step.
 
 ## Step 1: Get a Coinbase account
 
-First step is to create a Coinbase account. If you do not have one, please create one using my [referral link](https://www.coinbase.com/join/msalem)!
+First step is to create a Coinbase account. If you do not have one, you can create one [here](https://www.coinbase.com/signup).
+
+Optionally feel free to use my referral link:
+
+[https://www.coinbase.com/join/msalem](https://www.coinbase.com/join/msalem)
+
+_Note I will receive compensation for this referral._
 
 Once you've validated your account and linked a payment method, you will have the ability to purchase and sell cryptocurrencies for your local currency.
 
@@ -89,7 +95,8 @@ which makes it easy to send money to your wallet via an alias. [Other wallets](h
 To avoid the line with Argent, you can use one of my golden tokens by clicking this link on your smartphone after you download the app.
 
 [https://argent.link/FHPlUTIfPW](https://argent.link/FHPlUTIfPW)
-_Note I only have a limited number of tokens so this link may expire after a short time._
+
+_Note I only have a limited number of tokens so this link may expire after a short time. I do not receive compensation for this referral._
 
 ### Ethereum wallet risks
 
